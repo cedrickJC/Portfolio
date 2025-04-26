@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <script src="script.js"></script>
+  
+ <!---primary meta tags--->
+  <title>Portfolio</title>
+  <meta name="title" content="Cedrick Domingo - Software Developer">
+  <meta name="description" content="This is a personal portfolio html, css and javascript">
+  
+  
+  
+
+  <!--- google font link--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!--- custom css link--->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+
+</head>
+
+<body>
+
+  <!---#PRELOADER--->
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+        <a href="#" class="logo">
+          
+          <!--remix icon link-->
+          <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+          <!--remix icon link-->
+          <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+          rel="stylesheet"
+          />
+
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Portfolio home">
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#compilation">Compilation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+
+
+<!--- #HOME -->
+  <section id="home" class="hidden">
+    <section class="section home" aria-label="home">
+      <div class="container">
+        <div class="home-content">
+            <h1 class="h1 home-title">Cedrick Domingo</h1>
+            
+            <p class="home-subtitle">
+              Dedicated Student - Working Student
+            </p>
+
+            <div class="home-banner">
+              <img src="cedrickkk.jpg" width="800" height="800" alt="Cedric Domingo" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Cedrick Domingo Currently a Third year College, Dedicated to learn some Programming language and techniques. I want to be a Software Developer. BSCS Student in
+              Cavite State University (CvSU)
+            </p>
+            
+            <a href="myCV.pdf" download class="btn has-before"><i class="ri-arrow-down-line"></i>Download CV</a>
+      </div>
+    </section>
+ </section>
+      
+<!--- #ABOUT --->
+
+    <section id="about" class="hidden">
+      <section class="section about" aria-label="our about">
+        <div class="container">
+          <p class="section-subtitle">Introduction</p>
+            <h2 class="h2 section-title">About.</h2> 
+            <p class="section-text"> I am pursuing a Bachelor of Science in Computer Science. My academic journey so far has equipped me with a solid foundation in computer science principles, programming, and problem-solving skills. I am passionate about technology and constantly seek opportunities to expand my knowledge and apply it to real-world challenges.</p>         
+            <br>  
+            <div class="details-container2">
+              <p class="section-subtitle">SKILLS</p>
+              <div class="progress-container">
+                  <div class="progress-item" data-percentage="50">
+                      <div class="progress-circle">
+                          <div class="inner-circle">
+                              <span class="progress-percentage">50%</span>
+                          </div>
+                      </div>
+                      <div class="progress-label">HTML | CSS</div>
+                  </div>
+                  <div class="progress-item" data-percentage="35">
+                      <div class="progress-circle">
+                          <div class="inner-circle">
+                              <span class="progress-percentage">35%</span>
+                          </div>
+                      </div>
+                      <div class="progress-label">Javascript</div>
+                  </div>
+                  <div class="progress-item" data-percentage="40">
+                      <div class="progress-circle">
+                          <div class="inner-circle">
+                              <span class="progress-percentage">40%</span>
+                          </div>
+                      </div>
+                      <div class="progress-label">Web Design</div>
+                  </div>
+                  <div class="progress-item" data-percentage="45">
+                      <div class="progress-circle">
+                          <div class="inner-circle">
+                              <span class="progress-percentage">45%</span>
+                          </div>
+                      </div>
+                      <div class="progress-label">PHP</div>
+                  </div>
+              </div>
+              <div class="about-wrapper">
+                <div>
+
+                </div>
+                    <br>
+                    <div class="image-container">
+                      <img src="https://www.careerguide.com/career/wp-content/uploads/2021/01/coding_gif.gif"
+                          alt="Description of Image" class="about-image" />
+                          <br>
+                  </div>
+
+               <div>
+                  <ul class="about-list">
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="tab-links active-link" onclick="opentab('skills')">Personal Info</p>                    
+                      <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>                 
+                  <li>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                      <ul>
+                          <li><span>Location</span>- SanMarino City, Phase2 Finland St. Brgy Salawag </li>   
+                          <li><span>Birthday</span>- May 12, 2002</li>
+                          <li><span>Place of Birth</span>- Manila, </li>
+                          <li><span>App Development</span>- LAN Cabling</li>
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2013 - Current</span>BrodSis Internet Café (family business)<br>- Computer Attendant</li>
+                        <li><span>2021 - 2022</span>ROHM Electronics Phils. Inc (REPI)<br>- LSI Production Operator</li>
+                        <li><span>2020</span>METS Logistics, Inc<br>- Production Worker</li>
+                        <li><span>2019</span>HOTEL DE GLORIA<br>- Housekeeping Staff</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                      <li><span>2023 - Current </span>Cavite State University<br>- College</li>
+                      <li><span>2018 - 2020</span>Saint Jude College Dasmariñas Cavite<br>- Senior High</li>
+                      <li><span>2018</span>Salawag National High School | Christ The King College of Cavite Foundation<br>- Junior Highschool</li>
+                      <li><span>2010</span>Pintong Gubat Elementary School<br>- Elementary</li>
+                </ul>
+            </div>   
+          </div>        
+        </div>
+      </div>    
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname) { 
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </section>
+
+  <!--- #COMPILATION --->
+      
+      <section id="compilation" class="hidden">
+        <section class="portfolio" aria-labelledby="portfolio-label">
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Compilation</h2>
+          </div>
+
+          <!--<p class="section-text">
+            Our recent works and projects.
+          </p>-->
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/KalugdanPOS..jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                
+                <div class="card-content">
+                  <h3 class="h3 card-title">Kalugdan POS</h3>
+
+                  <p class="card-text">Website / UX Design</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+            
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/checklist.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Midterm Checklist</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/SoundActivity.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Weather</h3>
+
+                  <p class="card-text">JAVA</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Scratch.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Scratch</h3>
+
+                  <p class="card-text">JAVA</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Design Zoom</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Calculator.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Calculator</h3>
+
+                  <p class="card-text">UX Design / JAVA</p>
+                </div>
+
+                <a id="compilation" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+      </section>
+    </section>
+    
+<!---#CONTACT--->
+      <section id="contact" class="hidden">
+      <section class="section contact" aria-labelledby="contact-label">
+      <div class="container">
+        <div class="center">
+          <div class="row">
+            <div class="contact-left">
+              <div class="h-main">
+              <div class="h-text">
+              <h2 class="h2 section-title">Contact</h2>
+            <div>
+                <p>
+                  If you have any questions, feel free to reach out to me through the following methods:
+                </p>            
+        </div>
+          <br>
+        <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms Access Key -->
+                <input type="hidden" name="access_key" value="c621cfda-6512-4603-a5f6-e25d30247d3e">
+    
+                <!-- Name -->
+                <input type="text" name="name" placeholder="Name" id="name" class="item" required>
+        
+                <!--Email -->
+                <input type="email" name="email" placeholder="Email Address" id="email" class="item" required>
+        
+                <!-- Message -->
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your concern here" class="item" required></textarea>
+        
+                <!-- Submit Button -->
+                <input type="submit" value="Send Message" class="send-btn">
+            </form>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+        <div class="container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3><i class="ri-mail-fill"></i>Email</h3>
+                    <p><a href="https://www.cedrickd649@gmail.com">cedrickd649@gmail.com</a></p> |
+                    <p><a href="https://www.sedwreckbrrrt@gmail.com">sedwreckbrrrt@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3><i class="ri-phone-fill"></i>Phone</h3>
+                    <p><a href="cel:+639632947219">+639632947219</a></p> |
+                    <p><a href="cel:+639632947219">+639192611829</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <p>
+                        <a href="https://www.instagram.com/cedriiick_/" target="_blank"><i class="ri-instagram-fill"></i>Instagran</a> |
+                        <a href="https://www.facebook.com/Johncedced" target="_blank"><i class="ri-facebook-circle-fill"></i>Facebook</a>
+                    </p>
+              </div>
+            </div>
+        </div>
+    </section>   
+  </section>
+    </div>
+  </footer>
+  
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
